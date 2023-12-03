@@ -1,11 +1,11 @@
 from main.model import AtariNet
 from main.agent import Agent
 from main.environment import *
-import torch
 import os
+import torch
 
-# This is the testing script (epsilon value to something very low
-# and load the model)
+# This is the training script (adjust environment and hyperparameters
+# based on what game you want to play)
 
 if __name__ == "__main__":
 
@@ -19,18 +19,16 @@ if __name__ == "__main__":
 
     model.to(device)
 
-    model.load_the_model()
+    #model.load_the_model()
 
     agent = Agent(model = model, 
                 device = device,
-                epsilon = 0.05,
+                epsilon = 1,
                 min_epsilon = 0.1,
                 nb_warmup = 2000,
                 nb_actions = 6,
                 learning_rate = 0.00025,
-                memory_capacity = 100000,
+                memory_capacity = 80000,
                 batch_size = 32)
 
-    # Change games_amount to based on what game you choose, as 
-    # one game may not be enough for some games
-    agent.test(env = environment, games_amount = 3)
+    agent.train(env = environment, epochs = 10000)

@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import os
-from datetime import datetime
 
-class LivePlot():
+class LivePlot:
     
     def __init__(self) -> None:
         self.fig, self.ax = plt.subplots()
@@ -30,6 +29,4 @@ class LivePlot():
         if not os.path.exists("plots"):
             os.makedirs("plots")
 
-        current_date = datetime.now().strftime('%Y-%m-%d')
-
-        self.fig.savefig(f"plots/plot_{current_date}.png")
+        self.fig.savefig(f"plots/plot_{self.epochs}.png")

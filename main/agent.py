@@ -1,11 +1,11 @@
+from main.plot import LivePlot
 import random
 import torch
 import copy
 import torch.optim as optim
 import torch.nn.functional as F
-from plot import LivePlot
 import numpy as np
-import time
+import imageio
 
 class ReplayMemory:
 
@@ -42,8 +42,8 @@ class ReplayMemory:
 
 class Agent:
     
-    def __init__(self, model, device = "cpu", epsilon = 1.0, min_epsilon = 0.1, nb_warmup = 10000,
-                 nb_actions = None, memory_capacity = 500000, batch_size = 64, learning_rate = 0.0003) -> None:
+    def __init__(self, model, device, epsilon, min_epsilon, nb_warmup,
+                 nb_actions, memory_capacity, batch_size, learning_rate) -> None:
         
         self.memory = ReplayMemory(device = device, capacity = memory_capacity)
         self.model = model
@@ -59,7 +59,6 @@ class Agent:
 
         self.optimizer = optim.Adam(model.parameters(), lr = learning_rate)
 
-        print(f"Starting epsilon is {self.epsilon}")
         print(f"Epsilon decay is {self.epsilon_decay}")
 
     def get_action(self, state):
@@ -134,16 +133,22 @@ class Agent:
         return stats
     
 
-    def test(self, env):
+    def test(self, env, games_amount):
 
-        for epoch in range(1, 3):
+        writer = imageio.get_writer('./videos/game_video_test.mp4', fps = 30)
+
+        for epoch in range(games_amount):
             state = env.reset()
 
             done = False
 
             for _ in range(1000):
-                time.sleep(0.01)
                 action = self.get_action(state)
                 state, reward, done, info = env.step(action)
+                frame = env.render('rgb_array')
+                writer.append_data(frame)
                 if done:
                     break
+        
+        writer.close()
+        env.close()
