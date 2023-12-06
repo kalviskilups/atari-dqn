@@ -8,15 +8,38 @@ import numpy as np
 import imageio
 
 class ReplayMemory:
+    """
+    ReplayMemory: A class representing the experience replay memory for an agent.
+
+    Args:
+    - capacity (int): Maximum capacity of the memory buffer.
+    - device (str): Device to use for computation ('cpu' or 'cuda').
+
+    Attributes not listed in Args:
+    - memory (list): List storing transitions in the memory buffer.
+    - position (int): Current position in the memory buffer.
+
+    Methods:
+    - insert(transition): Inserts a transition into the replay memory.
+    - sample(batch_size): Samples a batch of transitions from the memory.
+    - can_sample(batch_size): Checks if enough transitions are available to sample.
+    - __len__(): Returns the current length of the memory buffer.
+    """
 
     def __init__(self, capacity, device = "cpu"):
         self.capacity = capacity
         self.memory = []
         self.position = 0
         self.device = device
-        self.memory_max_report = 0
 
     def insert(self, transition):
+        """
+        Inserts a transition into the replay memory.
+
+        Args:
+        - transition (tuple): A tuple containing the elements of the transition (state, action, reward, done, next_state).
+        """
+
         transition = [item.to('cpu') for item in transition]
 
         if len(self.memory) < self.capacity:
@@ -26,6 +49,16 @@ class ReplayMemory:
             self.memory.append(transition)
 
     def sample(self, batch_size = 32):
+        """
+        Samples a batch of transitions from the memory.
+
+        Args:
+        - batch_size (int): Number of transitions to sample.
+
+        Returns:
+        - A list containing tensors of transitions: [states, actions, rewards, dones, next_states]
+        """
+
         assert self.can_sample(batch_size)
 
         batch = random.sample(self.memory, batch_size)
@@ -34,13 +67,49 @@ class ReplayMemory:
         return [torch.cat(items).to(self.device) for items in batch]
     
     def can_sample(self, batch_size):
+        """
+        Checks if enough transitions are available to sample.
+
+        Args:
+        - batch_size (int): Number of transitions to sample.
+
+        Returns:
+        - True if enough transitions are available to sample a batch of the specified size, otherwise False.
+        """
+
         return len(self.memory) >= batch_size * 10
     
     def __len__(self):
+        """
+        Returns the current length of the memory buffer.
+
+        Returns:
+        - The current number of stored transitions in the memory.
+        """
+
         return len(self.memory)
 
 
 class Agent:
+    """
+    Agent: A class representing an agent that interacts with the environment using DQN.
+
+    Args:
+    - model (torch.nn.Module): Neural network model for the agent.
+    - device (str): Device to use for computation ('cpu' or 'cuda').
+    - epsilon (float): Initial value of exploration rate (epsilon-greedy).
+    - min_epsilon (float): Minimum value of exploration rate.
+    - nb_warmup (int): Number of steps for exploration rate decay.
+    - nb_actions (int): Number of possible actions in the environment.
+    - memory_capacity (int): Capacity of the experience replay memory.
+    - batch_size (int): Batch size for training.
+    - learning_rate (float): Learning rate for the optimizer.
+
+    Methods:
+    - get_action(state): Chooses an action based on the epsilon-greedy policy.
+    - train(env, epochs): Trains the agent using the provided environment for a given number of epochs.
+    - test(env, games_amount): Evaluates the trained agent in the environment for a specified number of games.
+    """
     
     def __init__(self, model, device, epsilon, min_epsilon, nb_warmup,
                  nb_actions, memory_capacity, batch_size, learning_rate) -> None:
@@ -62,6 +131,15 @@ class Agent:
         print(f"Epsilon decay is {self.epsilon_decay}")
 
     def get_action(self, state):
+        """
+        Chooses an action based on the epsilon-greedy policy.
+
+        Args:
+        - state: Current state of the environment.
+
+        Returns:
+        - A tensor representing the chosen action.
+        """
         
         if torch.rand(1) < self.epsilon:
             return torch.randint(self.nb_actions, (1, 1))
@@ -70,6 +148,17 @@ class Agent:
             return torch.argmax(av, dim = 1, keepdim = True)
         
     def train(self, env, epochs):
+        """
+        Trains the agent using the provided environment for a given number of epochs. This is the
+        main training loop that is called from the train.py file.
+
+        Args:
+        - env (gym.Env): Gym environment.
+        - epochs (int): Number of epochs to train the agent.
+
+        Returns:
+        - Dictionary containing training statistics: {"Returns": [], "AvgReturns": [], "EpsilonCheckpoints": []}
+        """
 
         stats = {"Returns": [], "AvgReturns": [], "EpsilonCheckpoints": []}
 
@@ -134,6 +223,16 @@ class Agent:
     
 
     def test(self, env, games_amount):
+        """
+        Evaluates the trained agent in the environment for a specified number of games.
+
+        Args:
+        - env (gym.Env): Gym environment for testing.
+        - games_amount (int): Number of games to play for evaluation.
+
+        Returns:
+        - None (Writes the rendered frames to a video file for evaluation).
+        """
 
         writer = imageio.get_writer('./videos/game_video_test.mp4', fps = 30)
 

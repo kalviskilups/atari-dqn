@@ -13,4 +13,6 @@ You should be fine, if you just run this command for the environment: `pip insta
 ## Results
 See the `results` folder to explore a an attempt at training the model. Analyzing these results might provide insights into the learning progress and performance of the trained model. See the `final_report.pdf` for explanations and takeaways.
 
+P.S. Documentation was generated using ChatGPT.
+
 #### Good luck!
