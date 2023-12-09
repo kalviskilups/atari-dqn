@@ -1,0 +1,499 @@
+Epoch: 20 - Episode Return: 122.0 - Epsilon: 0.9880681543867073
+ 
+Epoch: 40 - Episode Return: 102.0 - Epsilon: 0.976278677713154
+ 
+Epoch: 60 - Episode Return: 532.0 - Epsilon: 0.9646298712551311
+ 
+Epoch: 80 - Episode Return: 207.0 - Epsilon: 0.9531200565573447
+ 
+Epoch: 100 - Episode Return: 132.0 - Epsilon: 0.9417475751915696
+ 
+Epoch: 120 - Average Return: 169.75 - Epsilon: 0.9305107885176913
+ 
+Epoch: 140 - Average Return: 170.15 - Epsilon: 0.9194080774475949
+ 
+Epoch: 160 - Average Return: 166.45 - Epsilon: 0.9084378422118758
+ 
+Epoch: 180 - Average Return: 172.25 - Epsilon: 0.8975985021293311
+ 
+Epoch: 200 - Average Return: 169.3 - Epsilon: 0.8868884953792012
+ 
+Epoch: 220 - Average Return: 159.6 - Epsilon: 0.876306278776131
+ 
+Epoch: 240 - Average Return: 155.0 - Epsilon: 0.8658503275478153
+ 
+Epoch: 260 - Average Return: 160.95 - Epsilon: 0.8555191351152961
+ 
+Epoch: 280 - Average Return: 157.05 - Epsilon: 0.8453112128758827
+ 
+Epoch: 300 - Average Return: 154.8 - Epsilon: 0.8352250899886626
+ 
+Epoch: 320 - Average Return: 157.9 - Epsilon: 0.8252593131625692
+ 
+Epoch: 340 - Average Return: 157.3 - Epsilon: 0.8154124464469812
+ 
+Epoch: 360 - Average Return: 159.15 - Epsilon: 0.8056830710248185
+ 
+Epoch: 380 - Average Return: 154.5 - Epsilon: 0.7960697850081068
+ 
+Epoch: 400 - Average Return: 148.1 - Epsilon: 0.7865712032359828
+ 
+Epoch: 420 - Average Return: 147.25 - Epsilon: 0.7771859570751091
+ 
+Epoch: 440 - Average Return: 149.65 - Epsilon: 0.7679126942224697
+ 
+Epoch: 460 - Average Return: 144.8 - Epsilon: 0.7587500785105197
+ 
+Epoch: 480 - Average Return: 154.06 - Epsilon: 0.7496967897146585
+ 
+Epoch: 500 - Average Return: 157.16 - Epsilon: 0.740751523363002
+ 
+Epoch: 520 - Average Return: 163.46 - Epsilon: 0.7319129905484234
+ 
+Epoch: 540 - Average Return: 167.46 - Epsilon: 0.7231799177428365
+ 
+Epoch: 560 - Average Return: 161.51 - Epsilon: 0.7145510466136953
+ 
+Epoch: 580 - Average Return: 158.8 - Epsilon: 0.7060251338426841
+ 
+Epoch: 600 - Average Return: 161.8 - Epsilon: 0.697600950946569
+ 
+Epoch: 620 - Average Return: 159.15 - Epsilon: 0.6892772841001883
+ 
+Epoch: 640 - Average Return: 158.35 - Epsilon: 0.6810529339615552
+ 
+Epoch: 660 - Average Return: 163.15 - Epsilon: 0.6729267154990459
+ 
+Epoch: 680 - Average Return: 162.5 - Epsilon: 0.6648974578206513
+ 
+Epoch: 700 - Average Return: 162.1 - Epsilon: 0.6569640040052646
+ 
+Epoch: 720 - Average Return: 161.8 - Epsilon: 0.6491252109359831
+ 
+Epoch: 740 - Average Return: 152.95 - Epsilon: 0.641379949135399
+ 
+Epoch: 760 - Average Return: 149.4 - Epsilon: 0.6337271026028538
+ 
+Epoch: 780 - Average Return: 143.86 - Epsilon: 0.6261655686536372
+ 
+Epoch: 800 - Average Return: 145.16 - Epsilon: 0.6186942577601025
+ 
+Epoch: 820 - Average Return: 153.01 - Epsilon: 0.6113120933946784
+ 
+Epoch: 840 - Average Return: 156.51 - Epsilon: 0.6040180118747546
+ 
+Epoch: 860 - Average Return: 162.36 - Epsilon: 0.5968109622094173
+ 
+Epoch: 880 - Average Return: 163.3 - Epsilon: 0.5896899059480142
+ 
+Epoch: 900 - Average Return: 173.25 - Epsilon: 0.5826538170305252
+ 
+Epoch: 920 - Average Return: 177.7 - Epsilon: 0.5757016816397216
+ 
+Epoch: 940 - Average Return: 186.7 - Epsilon: 0.5688324980550836
+ 
+Epoch: 960 - Average Return: 185.2 - Epsilon: 0.5620452765084667
+ 
+Epoch: 980 - Average Return: 184.85 - Epsilon: 0.5553390390414873
+ 
+Epoch: 1000 - Average Return: 176.1 - Epsilon: 0.54871281936461
+ 
+Epoch: 1020 - Average Return: 172.6 - Epsilon: 0.5421656627179168
+ 
+Epoch: 1040 - Average Return: 167.6 - Epsilon: 0.5356966257335383
+ 
+Epoch: 1060 - Average Return: 176.7 - Epsilon: 0.5293047762997236
+ 
+Epoch: 1080 - Average Return: 189.8 - Epsilon: 0.5229891934265369
+ 
+Epoch: 1100 - Average Return: 194.0 - Epsilon: 0.5167489671131511
+ 
+Epoch: 1120 - Average Return: 186.05 - Epsilon: 0.5105831982167285
+ 
+Epoch: 1140 - Average Return: 197.4 - Epsilon: 0.504490998322865
+ 
+Epoch: 1160 - Average Return: 194.15 - Epsilon: 0.4984714896175806
+ 
+Epoch: 1180 - Average Return: 190.05 - Epsilon: 0.4925238047608356
+ 
+Epoch: 1200 - Average Return: 189.8 - Epsilon: 0.4866470867615578
+ 
+Epoch: 1220 - Average Return: 200.35 - Epsilon: 0.48084048885416025
+ 
+Epoch: 1240 - Average Return: 194.85 - Epsilon: 0.47510317437653227
+ 
+Epoch: 1260 - Average Return: 204.76 - Epsilon: 0.4694343166494863
+ 
+Epoch: 1280 - Average Return: 206.41 - Epsilon: 0.46383309885764307
+ 
+Epoch: 1300 - Average Return: 207.61 - Epsilon: 0.45829871393173843
+ 
+Epoch: 1320 - Average Return: 209.21 - Epsilon: 0.4528303644323343
+ 
+Epoch: 1340 - Average Return: 209.96 - Epsilon: 0.4474272624349166
+ 
+Epoch: 1360 - Average Return: 198.5 - Epsilon: 0.44208862941636495
+ 
+Epoch: 1380 - Average Return: 202.85 - Epsilon: 0.43681369614277676
+ 
+Epoch: 1400 - Average Return: 204.2 - Epsilon: 0.43160170255862945
+ 
+Epoch: 1420 - Average Return: 207.65 - Epsilon: 0.42645189767726577
+ 
+Epoch: 1440 - Average Return: 204.35 - Epsilon: 0.421363539472685
+ 
+Epoch: 1460 - Average Return: 210.4 - Epsilon: 0.41633589477262645
+ 
+Epoch: 1480 - Average Return: 218.8 - Epsilon: 0.4113682391529274
+ 
+Epoch: 1500 - Average Return: 223.9 - Epsilon: 0.4064598568331427
+ 
+Epoch: 1520 - Average Return: 224.2 - Epsilon: 0.40161004057340854
+ 
+Epoch: 1540 - Average Return: 239.3 - Epsilon: 0.3968180915725384
+ 
+Epoch: 1560 - Average Return: 243.15 - Epsilon: 0.3920833193673335
+ 
+Epoch: 1580 - Average Return: 230.45 - Epsilon: 0.3874050417330952
+ 
+Epoch: 1600 - Average Return: 233.35 - Epsilon: 0.38278258458532466
+ 
+Epoch: 1620 - Average Return: 235.9 - Epsilon: 0.37821528188259534
+ 
+Epoch: 1640 - Average Return: 246.0 - Epsilon: 0.3737024755305841
+ 
+Epoch: 1660 - Average Return: 234.0 - Epsilon: 0.369243515287248
+ 
+Epoch: 1680 - Average Return: 237.45 - Epsilon: 0.3648377586691312
+ 
+Epoch: 1700 - Average Return: 237.05 - Epsilon: 0.3604845708587914
+ 
+Epoch: 1720 - Average Return: 229.85 - Epsilon: 0.3561833246133303
+ 
+Epoch: 1740 - Average Return: 214.75 - Epsilon: 0.35193340017401464
+ 
+Epoch: 1760 - Average Return: 237.5 - Epsilon: 0.34773418517697713
+ 
+Epoch: 1780 - Average Return: 242.45 - Epsilon: 0.3435850745649814
+ 
+Epoch: 1800 - Average Return: 242.15 - Epsilon: 0.3394854705002403
+ 
+Epoch: 1820 - Average Return: 248.25 - Epsilon: 0.3354347822782754
+ 
+Epoch: 1840 - Average Return: 249.95 - Epsilon: 0.33143242624280256
+ 
+Epoch: 1860 - Average Return: 230.7 - Epsilon: 0.32747782570163453
+ 
+Epoch: 1880 - Average Return: 233.85 - Epsilon: 0.3235704108435859
+ 
+Epoch: 1900 - Average Return: 232.25 - Epsilon: 0.31970961865637054
+ 
+Epoch: 1920 - Average Return: 235.8 - Epsilon: 0.3158948928454781
+ 
+Epoch: 1940 - Average Return: 229.3 - Epsilon: 0.31212568375401817
+ 
+Epoch: 1960 - Average Return: 238.3 - Epsilon: 0.3084014482835218
+ 
+Epoch: 1980 - Average Return: 231.2 - Epsilon: 0.3047216498156869
+ 
+Epoch: 2000 - Average Return: 234.95 - Epsilon: 0.30108575813505833
+ 
+Epoch: 2020 - Average Return: 227.6 - Epsilon: 0.2974932493526296
+ 
+Epoch: 2040 - Average Return: 235.35 - Epsilon: 0.2939436058303572
+ 
+Epoch: 2060 - Average Return: 233.35 - Epsilon: 0.2904363161065748
+ 
+Epoch: 2080 - Average Return: 239.35 - Epsilon: 0.2869708748222977
+ 
+Epoch: 2100 - Average Return: 242.4 - Epsilon: 0.2835467826484066
+ 
+Epoch: 2120 - Average Return: 245.85 - Epsilon: 0.2801635462136999
+ 
+Epoch: 2140 - Average Return: 255.85 - Epsilon: 0.27682067803380556
+ 
+Epoch: 2160 - Average Return: 267.1 - Epsilon: 0.27351769644093926
+ 
+Epoch: 2180 - Average Return: 270.0 - Epsilon: 0.2702541255145025
+ 
+Epoch: 2200 - Average Return: 268.4 - Epsilon: 0.26702949501250806
+ 
+Epoch: 2220 - Average Return: 270.85 - Epsilon: 0.2638433403038233
+ 
+Epoch: 2240 - Average Return: 272.15 - Epsilon: 0.26069520230122273
+ 
+Epoch: 2260 - Average Return: 262.9 - Epsilon: 0.2575846273952384
+ 
+Epoch: 2280 - Average Return: 269.9 - Epsilon: 0.25451116738880075
+ 
+Epoch: 2300 - Average Return: 285.1 - Epsilon: 0.25147437943265877
+ 
+Epoch: 2320 - Average Return: 280.55 - Epsilon: 0.2484738259615696
+ 
+Epoch: 2340 - Average Return: 269.15 - Epsilon: 0.24550907463125202
+ 
+Epoch: 2360 - Average Return: 274.95 - Epsilon: 0.24257969825608958
+ 
+Epoch: 2380 - Average Return: 268.75 - Epsilon: 0.2396852747475788
+ 
+Epoch: 2400 - Average Return: 255.95 - Epsilon: 0.23682538705351106
+ 
+Epoch: 2420 - Average Return: 257.25 - Epsilon: 0.23399962309788028
+ 
+Epoch: 2440 - Average Return: 262.75 - Epsilon: 0.23120757572150769
+ 
+Epoch: 2460 - Average Return: 257.15 - Epsilon: 0.2284488426233749
+ 
+Epoch: 2480 - Average Return: 252.5 - Epsilon: 0.22572302630265742
+ 
+Epoch: 2500 - Average Return: 247.65 - Epsilon: 0.22302973400144885
+ 
+Epoch: 2520 - Average Return: 247.25 - Epsilon: 0.2203685776481698
+ 
+Epoch: 2540 - Average Return: 243.1 - Epsilon: 0.21773917380165092
+ 
+Epoch: 2560 - Average Return: 257.95 - Epsilon: 0.21514114359588374
+ 
+Epoch: 2580 - Average Return: 263.9 - Epsilon: 0.21257411268543042
+ 
+Epoch: 2600 - Average Return: 266.95 - Epsilon: 0.2100377111914852
+ 
+Epoch: 2620 - Average Return: 277.45 - Epsilon: 0.20753157364857908
+ 
+Epoch: 2640 - Average Return: 285.9 - Epsilon: 0.20505533895192052
+ 
+Epoch: 2660 - Average Return: 277.2 - Epsilon: 0.20260865030536485
+ 
+Epoch: 2680 - Average Return: 278.15 - Epsilon: 0.2001911551700036
+ 
+Epoch: 2700 - Average Return: 270.1 - Epsilon: 0.19780250521336837
+ 
+Epoch: 2720 - Average Return: 264.9 - Epsilon: 0.19544235625923992
+ 
+Epoch: 2740 - Average Return: 261.36 - Epsilon: 0.19311036823805647
+ 
+Epoch: 2760 - Average Return: 263.41 - Epsilon: 0.19080620513791385
+ 
+Epoch: 2780 - Average Return: 263.36 - Epsilon: 0.18852953495615005
+ 
+Epoch: 2800 - Average Return: 279.01 - Epsilon: 0.18628002965150733
+ 
+Epoch: 2820 - Average Return: 271.51 - Epsilon: 0.184057365096866
+ 
+Epoch: 2840 - Average Return: 271.7 - Epsilon: 0.18186122103254077
+ 
+Epoch: 2860 - Average Return: 265.05 - Epsilon: 0.17969128102013557
+ 
+Epoch: 2880 - Average Return: 263.05 - Epsilon: 0.17754723239694847
+ 
+Epoch: 2900 - Average Return: 255.15 - Epsilon: 0.1754287662309207
+ 
+Epoch: 2920 - Average Return: 261.05 - Epsilon: 0.173335577276123
+ 
+Epoch: 2940 - Average Return: 260.25 - Epsilon: 0.1712673639287734
+ 
+Epoch: 2960 - Average Return: 262.2 - Epsilon: 0.16922382818377968
+ 
+Epoch: 2980 - Average Return: 259.65 - Epsilon: 0.16720467559180044
+ 
+Epoch: 3000 - Average Return: 255.05 - Epsilon: 0.16520961521681843
+ 
+Epoch: 3020 - Average Return: 257.65 - Epsilon: 0.16323835959421984
+ 
+Epoch: 3040 - Average Return: 258.15 - Epsilon: 0.16129062468937444
+ 
+Epoch: 3060 - Average Return: 259.85 - Epsilon: 0.15936612985670928
+ 
+Epoch: 3080 - Average Return: 261.2 - Epsilon: 0.15746459779927113
+ 
+Epoch: 3100 - Average Return: 265.1 - Epsilon: 0.15558575452877105
+ 
+Epoch: 3120 - Average Return: 260.0 - Epsilon: 0.15372932932610606
+ 
+Epoch: 3140 - Average Return: 257.35 - Epsilon: 0.15189505470235193
+ 
+Epoch: 3160 - Average Return: 261.3 - Epsilon: 0.1500826663602208
+ 
+Epoch: 3180 - Average Return: 261.1 - Epsilon: 0.14829190315597934
+ 
+Epoch: 3200 - Average Return: 271.5 - Epsilon: 0.14652250706182088
+ 
+Epoch: 3220 - Average Return: 271.65 - Epsilon: 0.14477422312868668
+ 
+Epoch: 3240 - Average Return: 277.9 - Epsilon: 0.14304679944953078
+ 
+Epoch: 3260 - Average Return: 271.65 - Epsilon: 0.14133998712302337
+ 
+Epoch: 3280 - Average Return: 279.3 - Epsilon: 0.1396535402176867
+ 
+Epoch: 3300 - Average Return: 270.7 - Epsilon: 0.13798721573645947
+ 
+Epoch: 3320 - Average Return: 277.0 - Epsilon: 0.13634077358168395
+ 
+Epoch: 3340 - Average Return: 280.1 - Epsilon: 0.13471397652051037
+ 
+Epoch: 3360 - Average Return: 283.95 - Epsilon: 0.13310659015071485
+ 
+Epoch: 3380 - Average Return: 271.1 - Epsilon: 0.1315183828669247
+ 
+Epoch: 3400 - Average Return: 274.6 - Epsilon: 0.12994912582724666
+ 
+Epoch: 3420 - Average Return: 279.7 - Epsilon: 0.12839859292029365
+ 
+Epoch: 3440 - Average Return: 270.7 - Epsilon: 0.12686656073260463
+ 
+Epoch: 3460 - Average Return: 275.4 - Epsilon: 0.12535280851645375
+ 
+Epoch: 3480 - Average Return: 282.55 - Epsilon: 0.12385711815804279
+ 
+Epoch: 3500 - Average Return: 283.0 - Epsilon: 0.12237927414607369
+ 
+Epoch: 3520 - Average Return: 275.8 - Epsilon: 0.1209190635406959
+ 
+Epoch: 3540 - Average Return: 273.8 - Epsilon: 0.11947627594282435
+ 
+Epoch: 3560 - Average Return: 257.85 - Epsilon: 0.11805070346382342
+ 
+Epoch: 3580 - Average Return: 249.6 - Epsilon: 0.11664214069555248
+ 
+Epoch: 3600 - Average Return: 240.7 - Epsilon: 0.11525038468076922
+ 
+Epoch: 3620 - Average Return: 236.3 - Epsilon: 0.11387523488388568
+ 
+Epoch: 3640 - Average Return: 252.25 - Epsilon: 0.11251649316207375
+ 
+Epoch: 3660 - Average Return: 263.5 - Epsilon: 0.11117396373671477
+ 
+Epoch: 3680 - Average Return: 275.9 - Epsilon: 0.10984745316519048
+ 
+Epoch: 3700 - Average Return: 282.55 - Epsilon: 0.10853677031300998
+ 
+Epoch: 3720 - Average Return: 299.1 - Epsilon: 0.10724172632626974
+ 
+Epoch: 3740 - Average Return: 285.3 - Epsilon: 0.1059621346044417
+ 
+Epoch: 3760 - Average Return: 287.95 - Epsilon: 0.10469781077348655
+ 
+Epoch: 3780 - Average Return: 284.7 - Epsilon: 0.1034485726592876
+ 
+Epoch: 3800 - Average Return: 298.8 - Epsilon: 0.10221424026140151
+ 
+Epoch: 3820 - Average Return: 291.75 - Epsilon: 0.10099463572712249
+ 
+Epoch: 3840 - Average Return: 291.4 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3860 - Average Return: 292.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3880 - Average Return: 286.75 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3900 - Average Return: 273.45 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3920 - Average Return: 264.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3940 - Average Return: 264.85 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3960 - Average Return: 262.55 - Epsilon: 0.09996942033708196
+ 
+Epoch: 3980 - Average Return: 266.85 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4000 - Average Return: 262.75 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4020 - Average Return: 260.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4040 - Average Return: 259.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4060 - Average Return: 258.75 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4080 - Average Return: 258.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4100 - Average Return: 260.25 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4120 - Average Return: 267.65 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4140 - Average Return: 264.15 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4160 - Average Return: 256.75 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4180 - Average Return: 258.4 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4200 - Average Return: 261.8 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4220 - Average Return: 261.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4240 - Average Return: 266.2 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4260 - Average Return: 272.55 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4280 - Average Return: 263.4 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4300 - Average Return: 259.05 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4320 - Average Return: 258.85 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4340 - Average Return: 255.5 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4360 - Average Return: 255.0 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4380 - Average Return: 267.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4400 - Average Return: 264.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4420 - Average Return: 264.35 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4440 - Average Return: 260.15 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4460 - Average Return: 259.65 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4480 - Average Return: 253.75 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4500 - Average Return: 258.3 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4520 - Average Return: 260.6 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4540 - Average Return: 263.05 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4560 - Average Return: 264.1 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4580 - Average Return: 267.3 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4600 - Average Return: 265.7 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4620 - Average Return: 256.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4640 - Average Return: 271.1 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4660 - Average Return: 267.2 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4680 - Average Return: 260.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4700 - Average Return: 264.7 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4720 - Average Return: 267.35 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4740 - Average Return: 256.55 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4760 - Average Return: 255.0 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4780 - Average Return: 255.25 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4800 - Average Return: 249.9 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4820 - Average Return: 253.3 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4840 - Average Return: 251.25 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4860 - Average Return: 257.15 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4880 - Average Return: 259.8 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4900 - Average Return: 264.95 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4920 - Average Return: 262.6 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4940 - Average Return: 264.65 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4960 - Average Return: 259.3 - Epsilon: 0.09996942033708196
+ 
+Epoch: 4980 - Average Return: 256.25 - Epsilon: 0.09996942033708196
+ 
+Epoch: 5000 - Average Return: 258.15 - Epsilon: 0.09996942033708196
