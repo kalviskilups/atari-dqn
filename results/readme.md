@@ -13,8 +13,6 @@ The .gif files show the gameplay that was achieved by testing after different am
 * The third GIF exhibits gameplay after 3000 (2000 for "Pong") games (bottom left).
 * The fourth GIF demonstrates gameplay after 5000 (3000 for "Pong") games (bottom right).
 
-To see the conculsions and the explanation of the results, see the report named `final_report.pdf`.
-
 <br/>
 
 ## Breakout
